@@ -13,4 +13,6 @@ git remote add origin <link> - adiciona os arquivos ao projeto (?)
     remote -  trabalhar remotamente com a adição no git;
     add - adicionar arquivos ao repositório;
     origin -  nome (apelido) para o repositório (padrão muito utilizado);
-git push -u origin main - Envio dos commits do repositório local;
+O "git remote" é só feito uma vez;
+git push -u origin main - Envio dos commits do repositório local dentro da branch "main";
+git checkout -b "texto" - cria uma nova branch para trabalhar o versionamento
